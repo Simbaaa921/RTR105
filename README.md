@@ -21,3 +21,26 @@ ls -al -
 history - 
 cat his + (tab) - 
 clear - 
+cd 
+cd .. 
+cd ~
+cd /home/user/
+cd
+mkdir
+rmdir
+rm
+cat
+echo -e
+rm -r
+ctrl+l
+rwx rwx rwx
+--- --- ---
+000 000 000
+chmod  -
+echo "teksts" > teksts  - 
+echo "teksts" >> teksts - 
+nano
+cp
+mv
+rm
+histoty
