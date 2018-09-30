@@ -1,0 +1,146 @@
+Python 2.7.12 (default, Dec  4 2017, 14:50:18) 
+[GCC 5.4.0 20160609] on linux2
+Type "copyright", "credits" or "license()" for more information.
+>>> mans_mainiigais = input("Ivadit skaitli : ")
+Ivadit skaitli : 100
+>>> vars()
+{'mans_mainiigais': 100, '__builtins__': <module '__builtin__' (built-in)>, '__package__': None, '__name__': '__main__', '__doc__': None}
+>>> vars
+<built-in function vars>
+>>> vars()
+{'mans_mainiigais': 100, '__builtins__': <module '__builtin__' (built-in)>, '__package__': None, '__name__': '__main__', '__doc__': None}
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit skaitli : 85
+
+Traceback (most recent call last):
+  File "/home/user/RTR105/TEST1_260918.py", line 3, in <module>
+    x = mans
+NameError: name 'mans' is not defined
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit skaitli : 85
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit skaitli : 5
+>>> 5
+5
+>>> 5
+5
+>>> 
+>>> vars()
+{'mans_mainiigais': 5, '__builtins__': <module '__builtin__' (built-in)>, '__file__': '/home/user/RTR105/TEST1_260918.py', '__package__': None, 'x': 25, '__name__': '__main__', '__doc__': None}
+>>> 
+>>> 
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit skaitli : 4
+>>> vars()
+{'mans_mainiigais': 4, '__builtins__': <module '__builtin__' (built-in)>, '__file__': '/home/user/RTR105/TEST1_260918.py', '__package__': None, 'x': 16, '__name__': '__main__', '__doc__': None}
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit skaitli : 12
+>>> vars()
+{'mans_mainiigais': 12, '__builtins__': <module '__builtin__' (built-in)>, '__file__': '/home/user/RTR105/TEST1_260918.py', '__package__': None, 'x': 144, '__name__': '__main__', '__doc__': None}
+>>> 
+>>> 
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit skaitli : 11
+Lietotājs, Tu esi ievadījis vērtību: 11
+
+Traceback (most recent call last):
+  File "/home/user/RTR105/TEST1_260918.py", line 6, in <module>
+    print ("Kā arī tagad atmiņā ir arī x = %d"(x))
+TypeError: 'str' object is not callable
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit skaitli : 11
+Lietotājs, Tu esi ievadījis vērtību: 11
+Kā arī tagad atmiņā ir arī x = 121
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit skaitli : 9
+Lietotājs, Tu esi ievadījis vērtību: 9
+Kā arī tagad atmiņā ir arī x = 81
+>>> type(mans_mainiigais)
+<type 'int'>
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit skaitli : 5.5
+Lietotājs, Tu esi ievadījis vērtību: 5.5000
+Kā arī tagad atmiņā ir arī x = 30.250
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit skaitli : 5
+Lietotājs, Tu esi ievadījis vērtību: 5.0000
+Kā arī tagad atmiņā ir arī x = 25.000
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit skaitli : 1.1
+Lietotājs, Tu esi ievadījis vērtību: 1.1000
+Kā arī tagad atmiņā ir arī x = 1.210
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit skaitli : 1.8
+Lietotājs, Tu esi ievadījis vērtību: 1.8000
+Kā arī tagad atmiņā ir arī x = 3.240
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit skaitli : 1.1
+Lietotājs, Tu esi ievadījis vērtību:     1.1000
+Kā arī tagad atmiņā ir arī x =           1.210
+>>> 
+>>> 
+>>> 
+>>> type(mans_mainiigais)
+<type 'float'>
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit skaitli : 1
+Lietotājs, Tu esi ievadījis vērtību:     1.0000
+Kā arī tagad atmiņā ir arī x =           1.000
+>>> type(mans_mainiigais)
+<type 'int'>
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit tekstu : HELP
+
+Traceback (most recent call last):
+  File "/home/user/RTR105/TEST1_260918.py", line 3, in <module>
+    x = mans_mainiigais * mans_mainiigais
+TypeError: can't multiply sequence by non-int of type 'str'
+>>> 
+================= RESTART: /home/user/RTR105/TEST1_260918.py =================
+Ivadit tekstu : HELP
+Lietotājs, Tu esi ievadījis tekstu: HELP
+>>> 
+
+
+
+teks1
+#mans_mainiigais = input("Ivadit skaitli : ")
+mans_mainiigais = raw_input("Ivadit tekstu : ")
+
+
+#can't multiply sequence by non-int of type 'str'
+#x = mans_mainiigais * mans_mainiigais
+
+
+
+    # http://www.cplusplus.com/reference/cstdio/printf/
+
+print ("Lietotājs, Tu esi ievadījis tekstu: %s"%(mans_mainiigais))
+#print ("Kā arī tagad atmiņā ir arī x = %s"%(x))
+
+
+
+'''
+print ("Lietotājs, Tu esi ievadījis vērtību: %10.4f"%(mans_mainiigais))
+print ("Kā arī tagad atmiņā ir arī x = %15.3f"%(x))
+'''
+
+'''
+print ("Lietotājs, Tu esi ievadījis vērtību: %d"%(mans_mainiigais))
+print ("Kā arī tagad atmiņā ir arī x = %d"%(x))
+'''
