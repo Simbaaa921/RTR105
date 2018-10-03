@@ -1,0 +1,136 @@
+Python 2.7.12 (default, Dec  4 2017, 14:50:18) 
+[GCC 5.4.0 20160609] on linux2
+Type "copyright", "credits" or "license()" for more information.
+>>> print ("Hello world")
+Hello world
+>>> input ("Hello world")
+Hello world
+
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    input ("Hello world")
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+>>> vars()
+{'__builtins__': <module '__builtin__' (built-in)>, '__name__': '__main__', '__doc__': None, '__package__': None}
+>>> a
+
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    a
+NameError: name 'a' is not defined
+>>> a = 2
+>>> a
+2
+>>> 10a - 10
+SyntaxError: invalid syntax
+>>> 
+>>> a10 = 10
+>>> a
+2
+>>> a10
+10
+>>> print(123)
+123
+>>> print(98.6)
+98.6
+>>> print ('Hello world')
+Hello world
+>>> x = 12.2
+>>> x
+12.2
+>>> y = 14
+>>> y
+14
+>>> vars()
+{'a': 2, 'a10': 10, '__builtins__': <module '__builtin__' (built-in)>, '__package__': None, 'x': 12.2, 'y': 14, '__name__': '__main__', '__doc__': None}
+>>> x = 100
+>>> x
+100
+>>> x = spam
+
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    x = spam
+NameError: name 'spam' is not defined
+>>> a10 = spam
+
+Traceback (most recent call last):
+  File "<pyshell#22>", line 1, in <module>
+    a10 = spam
+NameError: name 'spam' is not defined
+>>> a10
+10
+>>> spam = 10
+>>> spam
+10
+>>> x1q3z9ocd = 35.0
+>>> x1q3z9ocd
+35.0
+>>> a
+2
+>>> a = 35.0
+>>> b=12.50
+>>> c=a*b
+>>> c
+437.5
+>>> print (c)
+437.5
+>>> xx = 2
+>>> xx = xx+2
+>>> print(xx)
+4
+>>> yy=440*12
+>>> print(yy)
+5280
+>>> zz=yy/1000
+>>> print(zz)
+5
+>>> 
+>>> 
+>>> 
+>>> 
+>>> input ("Enter houes : ")
+Enter houes : 35
+35
+>>> vars()
+{'a': 35.0, 'c': 437.5, 'b': 12.5, 'a10': 10, 'spam': 10, '__builtins__': <module '__builtin__' (built-in)>, '__package__': None, 'yy': 5280, 'xx': 4, 'zz': 5, 'x': 100, 'y': 14, '__name__': '__main__', '__doc__': None, 'x1q3z9ocd': 35.0}
+>>> a
+35.0
+>>> enter hous
+SyntaxError: invalid syntax
+>>> 
+>>> 
+>>> 
+>>> 
+
+
+>>> 
+
+>>> 
+
+>>> input ("Enter hours : ")
+Enter hours : 35
+35
+>>> hrs =
+SyntaxError: invalid syntax
+>>> hrs = input ("Enter hours : ")
+Enter hours : 35
+>>> vars()
+{'a': 35.0, 'c': 437.5, 'b': 12.5, 'a10': 10, 'spam': 10, '__builtins__': <module '__builtin__' (built-in)>, 'hrs': 35, '__package__': None, 'yy': 5280, 'xx': 4, 'zz': 5, 'x': 100, 'y': 14, '__name__': '__main__', '__doc__': None, 'x1q3z9ocd': 35.0}
+>>> rate = hrs = input ("Enter Rate : ")
+Enter Rate : 2.75
+>>> pay = float(hrs) * float(rate)
+>>> print ("Your pay:", pay)
+('Your pay:', 7.5625)
+>>> 
+=================== RESTART: /home/user/RTR105/2lesson.py ===================
+Enter hours : 35
+Enter rate : 2.75
+('Your Pay: ', 96.25)
+>>> 
+=================== RESTART: /home/user/RTR105/1lesson.py ===================
+Hello world
+>>> 
