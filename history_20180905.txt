@@ -1,75 +1,15 @@
     1  VirtualBox --startvm XP
     2  quartus
-    3  firefox &
-    4  exit
-    5  u
-    6  i
-    7  un
-    8  iun
-    9  clean
-   10  clear
-   11  n
-   12  uname
-   13  clear
-   14  as
-   15  uname
-   16  man uname
-   17  uname - 
-   18  uname -a
-   19  eco $0
-   20  echo $0
-   21  exit
-   22  echo $0
-   23  who
-   24  whoami
-   25  sh
-   26  echo $0
-   27  who
-   28  time
-   29  clear
-   30  location
-   31  ip
-   32  local
-   33  gps
-   34  whereiam
-   35  clear
-   36  where
-   37  clear
-   38  files
-   39  file
-   40  clear
-   41  pwd
-   42  paw man
-   43  man pwd
-   44  ls
-   45  man ls
-   46  ls -l
-   47  rwx
-   48  ls -a
-   49  ls
-   50  clear
-   51  ls -a
-   52  ls
-   53  clear
-   54  ls
-   55  ls -a
-   56  clear
-   57  ls
-   58  ls -a
-   59  ls -al
-   60  clear
-   61  exit
-   62  ls -al
-   63  cleatr
-   64  cleart
-   65  clear
-   66  clear all
-   67  clear al
-   68  al
-   69  help
-   70  lear
-   71  clear
-   72  caler
-   73  history
-   74  history > history_2018
-   75  history > history_20180905.txt
+    3  pwd
+    4  man pwd
+    5  whoami
+    6  pwd
+    7  ls
+    8  ls -l
+    9  man ls
+   10  ls -a
+   11  ls
+   12  ls -la
+   13  ls -lat
+   14  history
+   15  history > history_20180905.txt
